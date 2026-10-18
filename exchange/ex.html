@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="ex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="mainboard">
+        <form>
+            <p class="title" style="font-size: 30px;">Currency Change</p>
+            <h3>Enter the amount</h3>
+            <input type="text" placeholder="Enter the amount">
+            <div class="ex">
+                <div class="left">
+                    <p>form</p>
+                    <div class="mains">
+                        <img src="https://flagsapi.com/US/shiny/64.png " id="ltimg">
+                        <select name="select" class="Country" id="form">
+                            <option value="USD">USD</option>
+
+                        </select>
+                    </div>
+                    
+
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left" style="color: rgb(0, 0, 0);"></i>
+                <div class="right">
+                    <p>to</p>
+                    <div class="mains">
+                        <img src="https://flagsapi.com/PK/shiny/64.png" id="rgimg">
+                        <select name="select" class="Country" id="to">
+                            <option value="PKR">PKR</option>
+
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+            <p id="USD">Result......</p>
+            <div class="button">
+                    <button>Get exchange rate</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="EXS.JS"></script>
+    <script src="ex.js"></script>
+</body>
+</html>

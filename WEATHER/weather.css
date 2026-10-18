@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8F4F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    background-color: #FFFFFF;
+    height: 540px;
+    width: 440px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+}
+input{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 4px;
+    width: 320px;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    border: 1.7px solid black;
+    text-shadow: 0.2px 0.3px 1px rgb(29, 28, 28);
+    color: black;
+}
+.re{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.big-img{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.big-img img{
+    width: 130px;
+    filter: drop-shadow(0 5px 8px rgba(0, 0, 0, 0.25));
+
+}
+.re i{
+    border: 1.7px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1.3px solid black;
+    margin-left: 4px;
+    background-color: rgba(250, 163, 24, 0.89);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-self: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+h2{
+    display: flex;
+    justify-self: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hum{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.right{
+    height: 95px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    height: 95px;
+    width: 44%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left img{
+    height: 67px;
+}
+.right img{
+    height: 70px;
+}
+.left h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.left h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right h1{
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.right h2{
+    font-size: 20px;
+    font-weight: 600;
+}

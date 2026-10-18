@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div id="card">
+        <div class="re">
+             <input type="text" placeholder="Lahore">
+             <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+        </div>
+       <div class="big-img">
+            <img src="mist.png" alt="Weather-png" id="img">
+       </div>
+       <div class="deg">
+            <h1 id="temp">32°C</h1>
+            <h2 id="city">Lahore</h2>
+       </div>
+       <div class="hum">
+          <div class="left">
+               <img src="humidity (3).png">
+               <h1 id="hum">50%</h1>
+               <h2>Humidity</h2>
+          </div>
+          <div class="right">
+               <img src="wind.png">
+               <h1 id="wind">12 km/h</h1>
+               <h2>Wind Speed</h2>
+          </div>
+       </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
